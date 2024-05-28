@@ -9,7 +9,7 @@ import com.insuranceapp.model.Insurance;
 
 @Service
 public class InsuranceServiceImpl implements IInsuranceService {
-
+	// this is the test for fetch.
 	@Override
 	public List<Insurance> getAll() {
 		return getAllInsurances();
