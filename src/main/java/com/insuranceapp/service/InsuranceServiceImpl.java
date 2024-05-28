@@ -11,6 +11,8 @@ import com.insuranceapp.model.Insurance;
 public class InsuranceServiceImpl implements IInsuranceService {
 	// this is the test for fetch.
 	// this is the test for pull.
+
+	// this is the test for merging branch
 	@Override
 	public List<Insurance> getAll() {
 		return getAllInsurances();
