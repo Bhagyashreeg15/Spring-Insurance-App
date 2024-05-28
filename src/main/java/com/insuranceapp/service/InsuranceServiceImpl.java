@@ -10,6 +10,7 @@ import com.insuranceapp.model.Insurance;
 @Service
 public class InsuranceServiceImpl implements IInsuranceService {
 	// this is the test for fetch.
+	// this is the test for pull.
 	@Override
 	public List<Insurance> getAll() {
 		return getAllInsurances();
